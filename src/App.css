@@ -1,0 +1,10 @@
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tracking-in-contract{animation:tracking-in-contract 0.4s linear both} @keyframes tracking-in-contract{0%{letter-spacing:.6em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
+
+.slide-top{animation:slide-top 0.4s linear both}@keyframes slide-top{0%{transform:translateY(0)}100%{transform:translateY(-100px)}}
