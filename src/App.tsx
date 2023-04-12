@@ -1,7 +1,9 @@
+import { Button } from '@mui/material'
 import './App.css'
 import { Profile } from './components/Profile/Profile'
 import { Proyects } from './components/Proyects/Proyects'
 import { Techs } from './components/Techs/Techs'
+import cv from './static/docs/CVsoftwareDev.pdf'
 
 function App () {
   return (
@@ -13,6 +15,7 @@ function App () {
         <Proyects />
         <h2>Mi Formación</h2>
         <Techs />
+        <Button variant="contained" href={cv} >Descargar CV</Button>
       </div>
     </div>
   )
